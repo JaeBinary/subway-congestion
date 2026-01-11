@@ -3,8 +3,8 @@ import sqlite3
 from datetime import datetime, timedelta
 import re
 
-CSV_PATH = r"..\data\(1호선)서울교통공사_서울 도시철도 열차운행시각표_20250704.csv"
-DB_PATH = r"..\data\metro_datetime.db"
+CSV_PATH = r"..\data\input\(1호선)서울교통공사_서울 도시철도 열차운행시각표_20250704.csv"
+DB_PATH = r"..\data\input\metro_datetime.db"
 BASE_DATE = "2025-07-04"  # 기준 날짜
 
 def convert_to_datetime(time_str, base_date="2025-07-04"):
